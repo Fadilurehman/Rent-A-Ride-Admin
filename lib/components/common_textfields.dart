@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:r_a_r_admin/utils/colors.dart';
+import 'package:r_r_admin/utils/colors.dart';
 
 class TextFormFields extends StatelessWidget {
   final Size size;

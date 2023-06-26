@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:r_a_r_admin/components/space.dart';
-import 'package:r_a_r_admin/utils/colors.dart';
-import 'package:r_a_r_admin/utils/text.dart';
+import 'package:r_r_admin/components/space.dart';
+import 'package:r_r_admin/utils/colors.dart';
+import 'package:r_r_admin/utils/text.dart';
 
 class CommonAppbar extends StatelessWidget {
   final String title;
