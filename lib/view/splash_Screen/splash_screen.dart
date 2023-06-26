@@ -4,6 +4,8 @@ import 'package:r_r_admin/components/space.dart';
 import 'package:r_r_admin/utils/colors.dart';
 import 'package:r_r_admin/utils/images.dart';
 import 'package:r_r_admin/utils/text.dart';
+import 'package:r_r_admin/view/login/login_screen.dart';
+import 'package:r_r_admin/view/main/main_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class SplashScreen extends StatelessWidget {

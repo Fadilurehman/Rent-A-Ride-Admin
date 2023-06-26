@@ -1,1 +1,1 @@
-const String splashImage = "assets/images/carLogo.png";
+const String splashImage = "assets/images/carlogo.png";
