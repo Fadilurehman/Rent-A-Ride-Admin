@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:r_r_admin/components/space.dart';
 import 'package:r_r_admin/utils/text.dart';
+import 'package:r_r_admin/view/home/home_screen.dart';
 import 'package:r_r_admin/view/splash_Screen/splash_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -22,7 +23,7 @@ class HomeAppBAr extends StatelessWidget {
             style: barText,
           ),
           Text(
-            "Ijas Ahammed",
+            "Fadilu Rehman",
             style: bookingText,
           ),
         ],
@@ -36,7 +37,7 @@ class HomeAppBAr extends StatelessWidget {
             // ignore: use_build_context_synchronously
             Navigator.pushAndRemoveUntil(context, MaterialPageRoute(
               builder: (context) {
-                return const SplashScreen();
+                return const HomeScreen();
               },
             ), (route) => false);
           },

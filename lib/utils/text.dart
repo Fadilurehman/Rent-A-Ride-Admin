@@ -15,6 +15,12 @@ final loginHead = GoogleFonts.truculenta(
   fontSize: 30,
 );
 
+final loginHead1 = GoogleFonts.truculenta(
+  color: kwhite,
+  fontWeight: FontWeight.bold,
+  fontSize: 30,
+);
+
 final containerHead = GoogleFonts.roboto(
   color: kblack,
   fontSize: 20,

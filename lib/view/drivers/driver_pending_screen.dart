@@ -30,7 +30,7 @@ class DriverPendings extends StatelessWidget {
                 leading: const CircleAvatar(
                   backgroundColor: kblack,
                   backgroundImage: AssetImage(
-                    "assets/images/carLogo.png",
+                    "assets/images/person.jpeg",
                   ),
                 ),
                 title: Text(

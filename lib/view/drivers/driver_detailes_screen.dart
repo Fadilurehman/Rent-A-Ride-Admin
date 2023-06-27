@@ -28,7 +28,7 @@ class DriverDetails extends StatelessWidget {
               child: CircleAvatar(
                 radius: size.width * 0.2,
                 backgroundColor: kblack,
-                backgroundImage: const AssetImage("assets/images/person.png"),
+                backgroundImage: const AssetImage("assets/images/person.jpeg"),
               ),
             ),
             const SpaceWH(
@@ -49,7 +49,7 @@ class DriverDetails extends StatelessWidget {
               height: 20,
             ),
             Text(
-              "9747025461",
+              "9061334373",
               style: barText,
             ),
             const SpaceWH(
@@ -59,7 +59,7 @@ class DriverDetails extends StatelessWidget {
               decoration: const BoxDecoration(
                 image: DecorationImage(
                     image: AssetImage(
-                      "assets/images/license1.jpg",
+                      "assets/images/licence_front.png",
                     ),
                     fit: BoxFit.contain),
               ),
@@ -74,7 +74,7 @@ class DriverDetails extends StatelessWidget {
               decoration: const BoxDecoration(
                 image: DecorationImage(
                     image: AssetImage(
-                      "assets/images/license2.jpg",
+                      "assets/images/licence_back.jpg",
                     ),
                     fit: BoxFit.contain),
               ),

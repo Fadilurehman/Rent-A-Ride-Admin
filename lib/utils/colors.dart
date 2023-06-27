@@ -11,3 +11,4 @@ const hashColor = Color.fromARGB(223, 143, 132, 132);
 const grey300 = Color.fromARGB(255, 224, 224, 224);
 const snackBarGreen = Colors.greenAccent;
 const specialGreen = Color.fromARGB(255, 53, 194, 193);
+const mainbotton = Color.fromARGB(255, 235, 99, 99);

@@ -21,7 +21,7 @@ class PlacesScreen extends StatelessWidget {
         child: const CommonAppbar(title: "PLACES"),
       ),
       floatingActionButton: FloatingActionButton(
-        backgroundColor: blueButton,
+        backgroundColor: specialGreen,
         onPressed: () {
           showDialog(
             context: context,

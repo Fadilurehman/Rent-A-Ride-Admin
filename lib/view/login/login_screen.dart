@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:r_r_admin/components/common_elevated.dart';
-import 'package:r_r_admin/components/common_textfields.dart';
+import 'package:r_r_admin/components/common_textfield_1.dart';
 import 'package:r_r_admin/utils/colors.dart';
 import 'package:r_r_admin/utils/text.dart';
 import 'package:r_r_admin/view_model/admin_login_view_model.dart';
@@ -17,7 +17,7 @@ class LoginScreen extends StatelessWidget {
     final providervalue = context.watch<AdminLoginViewModel>();
 
     return Scaffold(
-      backgroundColor: kwhite,
+      backgroundColor: kblack,
       body: SafeArea(
         child: GestureDetector(
           onTap: () {
@@ -38,10 +38,10 @@ class LoginScreen extends StatelessWidget {
                     children: [
                       Text(
                         "WELCOME BACK!",
-                        style: loginHead,
+                        style: loginHead1,
                       ),
 // Username textfield
-                      TextFormFields(
+                      TextFormFields1(
                         keyType: TextInputType.name,
                         size: size,
                         hintText: " USERNAME",
@@ -49,7 +49,7 @@ class LoginScreen extends StatelessWidget {
                         isAdmin: true,
                       ),
 // password textfield
-                      TextFormFields(
+                      TextFormFields1(
                         keyType: TextInputType.name,
                         size: size,
                         hintText: " PASSWORD",
@@ -60,10 +60,10 @@ class LoginScreen extends StatelessWidget {
                       providervalue.isLoading
                           ? CommonElevated(
                               onTap: () {},
-                              color: kblack,
+                              color: kwhite,
                               child: const Text("LOADING..."))
                           : CommonElevated(
-                              color: blueButton,
+                              color: mainbotton,
                               onTap: () async {
                                 if (providervalue.loginFormKey.currentState!
                                     .validate()) {

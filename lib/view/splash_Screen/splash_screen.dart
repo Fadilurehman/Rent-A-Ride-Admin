@@ -33,7 +33,7 @@ class SplashScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 // Title
-                Text("RENT-A-RIDE", style: splashHead),
+                Text("TURBO-RENT", style: splashHead),
                 SpaceWH(
                   height: size.width * 0.1,
                 ),
