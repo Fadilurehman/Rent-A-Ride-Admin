@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:r_r_admin/components/space.dart';
 import 'package:r_r_admin/utils/text.dart';
 import 'package:r_r_admin/view/home/home_screen.dart';
-import 'package:r_r_admin/view/splash_Screen/splash_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class HomeAppBAr extends StatelessWidget {

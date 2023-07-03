@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:r_r_admin/utils/colors.dart';
 import 'package:r_r_admin/view/drivers/drivers_screen.dart';
-import 'package:r_r_admin/view/extras/extra_screen.dart';
+import 'package:r_r_admin/view/extras/others_screen.dart';
 import 'package:r_r_admin/view/home/home_screen.dart';
 import 'package:r_r_admin/view/users/users_screen.dart';
 import 'package:r_r_admin/view_model/main_view_model.dart';

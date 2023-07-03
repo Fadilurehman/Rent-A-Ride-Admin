@@ -21,7 +21,7 @@ class BrandsScreen extends StatelessWidget {
         child: const CommonAppbar(title: "BRANDS"),
       ),
       floatingActionButton: FloatingActionButton(
-        backgroundColor: blueButton,
+        backgroundColor: specialGreen,
         onPressed: () {
           showDialog(
             context: context,
