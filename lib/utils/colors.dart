@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-const background = Color(0xfff5f5fd);
+const background = Color.fromARGB(255, 11, 179, 240);
 final bodyColor = Colors.grey[900];
 const kblack = Colors.black;
 const blackBG = Color.fromARGB(89, 24, 26, 32);

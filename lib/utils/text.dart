@@ -35,7 +35,13 @@ final containerVal = GoogleFonts.roboto(
 );
 
 final barText = GoogleFonts.roboto(
-  color: hashColor,
+  color: kwhite,
+  fontWeight: FontWeight.bold,
+  fontSize: 14,
+);
+
+final barText1 = GoogleFonts.roboto(
+  color: bodyColor,
   fontWeight: FontWeight.bold,
   fontSize: 14,
 );
@@ -47,5 +53,9 @@ final carText = GoogleFonts.roboto(
 );
 final bookingText = GoogleFonts.roboto(
   color: kblack,
+  fontWeight: FontWeight.bold,
+);
+final bookingText1 = GoogleFonts.roboto(
+  color: kwhite,
   fontWeight: FontWeight.bold,
 );

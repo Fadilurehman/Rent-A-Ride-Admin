@@ -62,7 +62,7 @@ class UsersScreens extends StatelessWidget {
                             child: RichText(
                               text: TextSpan(
                                 text: "USERNAME: ",
-                                style: barText,
+                                style: bookingText,
                                 children: [
                                   TextSpan(
                                       text: "Fadilu Rehman",
@@ -75,7 +75,7 @@ class UsersScreens extends StatelessWidget {
                             child: RichText(
                               text: TextSpan(
                                 text: "EMAIL: ",
-                                style: barText,
+                                style: bookingText,
                                 children: [
                                   TextSpan(
                                       text: "rehmanfadilu@gmail.com",
@@ -88,7 +88,7 @@ class UsersScreens extends StatelessWidget {
                             child: RichText(
                               text: TextSpan(
                                 text: "PHONENUMBER: ",
-                                style: barText,
+                                style: bookingText,
                                 children: [
                                   TextSpan(
                                       text: "9061334373", style: bookingText),
@@ -97,40 +97,39 @@ class UsersScreens extends StatelessWidget {
                             ),
                           ),
                           SimpleDialogOption(
-                            child: providerVal.isBlock
-                                ? TextButton(
-                                    onPressed: () {
-                                      providerVal.userBlocked();
-                                      Navigator.pop(context);
-                                    },
-                                    child: Container(
-                                      color: Colors.green,
-                                      child: const Padding(
-                                        padding: EdgeInsets.all(8.0),
-                                        child: Text(
-                                          "UN-BLOCK",
-                                          style: TextStyle(color: kwhite),
+                              child: providerVal.isBlock
+                                  ? TextButton(
+                                      onPressed: () {
+                                        providerVal.userBlocked();
+                                        Navigator.pop(context);
+                                      },
+                                      child: Container(
+                                        color: Colors.red,
+                                        child: const Padding(
+                                          padding: EdgeInsets.all(8.0),
+                                          child: Text(
+                                            "BLOCK",
+                                            style: TextStyle(color: kwhite),
+                                          ),
                                         ),
                                       ),
-                                    ),
-                                  )
-                                : TextButton(
-                                    onPressed: () {
-                                      providerVal.userBlocked();
-                                      Navigator.pop(context);
-                                    },
-                                    child: Container(
-                                      color: Colors.red,
-                                      child: const Padding(
-                                        padding: EdgeInsets.all(8.0),
-                                        child: Text(
-                                          "BLOCK",
-                                          style: TextStyle(color: kwhite),
+                                    )
+                                  : TextButton(
+                                      onPressed: () {
+                                        providerVal.userBlocked();
+                                        Navigator.pop(context);
+                                      },
+                                      child: Container(
+                                        color: Colors.green,
+                                        child: const Padding(
+                                          padding: EdgeInsets.all(8.0),
+                                          child: Text(
+                                            "UN-BLOCK",
+                                            style: TextStyle(color: kwhite),
+                                          ),
                                         ),
                                       ),
-                                    ),
-                                  ),
-                          ),
+                                    )),
                         ],
                       );
                     },

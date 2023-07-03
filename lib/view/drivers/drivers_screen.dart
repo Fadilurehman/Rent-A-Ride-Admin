@@ -32,7 +32,10 @@ class DriversScreens extends StatelessWidget {
                         ),
                       );
                     },
-                    icon: const Icon(Icons.notifications_none)),
+                    icon: const Icon(
+                      Icons.notifications_none,
+                      color: kwhite,
+                    )),
                 Positioned(
                   top: 0,
                   right: 6,

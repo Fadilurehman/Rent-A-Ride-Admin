@@ -50,7 +50,7 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'R-R-ADMIN',
+        title: 'T-R-ADMIN',
         theme: ThemeData(
           primaryColor: Colors.grey[900],
           scaffoldBackgroundColor: background,

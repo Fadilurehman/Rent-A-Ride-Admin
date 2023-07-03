@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:r_r_admin/components/space.dart';
 import 'package:r_r_admin/utils/text.dart';
-import 'package:r_r_admin/view/home/home_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
+import '../../login/login_screen.dart';
 
 class HomeAppBAr extends StatelessWidget {
   const HomeAppBAr({
@@ -23,7 +24,7 @@ class HomeAppBAr extends StatelessWidget {
           ),
           Text(
             "Fadilu Rehman",
-            style: bookingText,
+            style: bookingText1,
           ),
         ],
       ),
@@ -36,7 +37,7 @@ class HomeAppBAr extends StatelessWidget {
             // ignore: use_build_context_synchronously
             Navigator.pushAndRemoveUntil(context, MaterialPageRoute(
               builder: (context) {
-                return const HomeScreen();
+                return const LoginScreen();
               },
             ), (route) => false);
           },

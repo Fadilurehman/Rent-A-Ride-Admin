@@ -53,13 +53,13 @@ class BarGraphSection extends StatelessWidget {
                   barRods: [
                     BarChartRodData(
                       toY: data.y.toDouble(),
-                      color: bodyColor,
+                      color: kwhite,
                       width: 20,
                       borderRadius: BorderRadius.circular(4),
                       backDrawRodData: BackgroundBarChartRodData(
                         show: true,
                         toY: 50,
-                        color: grey300,
+                        color: kblack,
                       ),
                     ),
                   ],

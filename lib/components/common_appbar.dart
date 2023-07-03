@@ -20,7 +20,7 @@ class CommonAppbar extends StatelessWidget {
       elevation: 0,
       title: Text(
         title,
-        style: bookingText,
+        style: bookingText1,
       ),
       actions: [
         widget,
